@@ -1,0 +1,60 @@
+body {
+	background-color: #000;
+}
+
+nav.navbar {
+	margin : 0px;
+	border-radius: 0;
+}
+
+.parchment {
+	background-image: url('/img/parchmentTexture.jpg');
+}
+
+.footer {
+	height: 80px;
+	color : #5E5E5E;
+}
+
+.blog-title {
+	font-family: "lifecraft";
+}
+
+.comment-container {
+
+
+}
+
+.comment-container button{
+	font-family: "lifecraft";
+	font-size: 22px;
+	width : 120px;
+	height : 35px;
+}
+
+.comment-container button {
+	background-color: #8F551D;
+	border : 1px solid #D7AD83;
+	color : #C88D53;
+}
+
+.container {
+	margin-bottom: 10px;
+}
+
+.form-item-container {
+	background-image: url('/img/comment_parchment.png');
+	background-size: 600px 110px;
+	background-repeat: no-repeat;
+	width : 600px;
+	padding: 9px 13px
+}
+
+.form-item-container textarea {
+	resize : none;
+	width : 570px;
+	background : transparent;
+	border : 0px;
+	padding : 5px 5px;
+	outline : none;
+}
